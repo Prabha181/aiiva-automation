@@ -275,13 +275,6 @@ export default function Navbar() {
                   5H5.21L4.27 3H1v2h2l3.6 7.59-1.35 2.44C4.52 16.37 5.48 18
                   7 18h12v-2H7l1.1-2z"/>
               </svg>
-
-              {/* Badge */}
-              {cart.length > 0 && (
-                <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-[10px] min-w-4 h-4 px-[5px] flex items-center justify-center rounded-full font-medium shadow-sm">
-                  {cart.reduce((total, item) => total + item.qty, 0)}
-                </span>
-              )}
             </button>
 
             {/* Phone icon only */}
